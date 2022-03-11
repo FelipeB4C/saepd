@@ -13,32 +13,98 @@ body {
   background-color: #F7F7F7;
 }
 
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  padding: 5px 0;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+
+.logomarca {
+  display: flex;
+  justify-content: right;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+}
+
+.itens-menu {
+  display: flex;
+  justify-content: right;
+}
+
+.itens-menu a {
+  margin: 0 10px;
+}
+
 h1 {
-  font-family: 'Mulish', Arial, sans-serif;
+  font-family: 'Mulish', Helvetica, sans-serif;
   font-weight: bold;
+  font-size: 28px;
   color: #000000;
+}
+
+.campoForm {
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 12px;
 }
 
 a {
   color: #0099EF;
 }
 
-button, input {
+button {
   background-color: #0099EF;
   border-radius: 12px;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
   background-color: #FFFFFF;
   height: 71px;
-  width: 100%;
   box-shadow: 4px 0px 25px rgba(0, 0, 0, 0.25);
 }
 
+footer h3 {
+  color: #000000;
+}
+
 footer p {
-  font-family: 'Mulish', Arial, sans-serif;
+  font-family: 'Mulish', Helvetica, sans-serif;
   font-weight: normal;
   color: #8E9294;
+}
+
+.footer {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Mulish', Helvetica, sans-serif;
+  font-weight: normal;
+  color: #8E9294;
+  font-size: 15px;
+}
+
+.imgLogoFooter {
+  width: 28px;
+  height: 28px;
+}
+
+.footerLogo h3 {
+  display: inline;
+  font-family: 'Mulish', Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: auto;
+}
+
+span img {
+  width: 14px;
+  height: 14px;
+  margin-left: 10px;
 }

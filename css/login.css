@@ -1,0 +1,65 @@
+h2 {
+  margin-top: 200px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  display: block;
+  border-radius: 12px;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  width: 258px;
+  height: 52px;
+  font-size: 14px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  margin-top: 19px;
+  border-radius: 12px;
+  width: 258px;
+  height: 63px;
+  color: #FFFFFF;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 19px;
+  font-size: 14px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  
+}
+
+a {
+  display: block;
+  margin-top: 21px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: right;
+}
+
+p a {
+  display: contents;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: bold;
+}
