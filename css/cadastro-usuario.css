@@ -1,0 +1,68 @@
+input {
+  display: block;
+  border-radius: 12px;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  height: 52px;
+  font-size: 14px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.segunda-linha {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 11px;
+}
+
+.nome {
+  width: 567px;
+}
+
+.nascimento {
+  width: 156px;
+}
+
+.options {
+  display: grid;
+}
+
+.uf {
+  width: 75px;
+  height: 52px;
+  border-radius: 12px;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+.cidade {
+  width: 320px;
+  height: 52px;
+  border-radius: 12px;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  margin: 24px auto;
+  border-radius: 12px;
+  width: 258px;
+  height: 63px;
+  color: #FFFFFF;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: bold;
+}

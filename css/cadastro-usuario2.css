@@ -1,0 +1,46 @@
+input {
+  display: block;
+  border-radius: 12px;
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  height: 52px;
+  width: 208px;
+  font-size: 14px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.primeira-linha {
+  display: flex;
+}
+
+.primeira-linha div {
+  margin: 6px;
+}
+
+.segunda-linha {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.segunda-linha div {
+  margin: 6px;
+}
+
+button {
+  display: block;
+  margin: 24px auto;
+  border-radius: 12px;
+  width: 258px;
+  height: 63px;
+  color: #FFFFFF;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: bold;
+}
